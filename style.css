@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heroes Legend', sans-serif; 
+    background-color: #6673c6; 
+}
+
+header {
+    background-color: #702632;
+    height: 8rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h1 {
+    color: white; 
+}
+
+main {
+    padding: 2rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    max-width: 800px; 
+    margin-bottom: 2rem; 
+}
+
+.primeira img {
+    width: 12rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.segunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #912F40; 
+    height: 25rem; 
+    padding: 1rem; 
+}
+
+.segunda img {
+    width: 24rem; 
+    height: auto; 
+    margin: 0 1rem; 
+}
+
+.segunda p {
+    max-width: 400px; 
+    margin: 0 1rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.terceira img {
+    width: 24rem; 
+    height: auto; 
+    margin: 0.5rem;
+}
